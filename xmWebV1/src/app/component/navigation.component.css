@@ -1,0 +1,15 @@
+#logo{
+    margin: 0px;
+}
+ul {
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+#myCarousel {
+    width: 1200px;
+    border: 12px solid white;
+}
+body{
+    background-color: #FCF3F4;
+}

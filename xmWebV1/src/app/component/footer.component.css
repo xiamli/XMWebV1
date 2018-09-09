@@ -1,0 +1,29 @@
+
+P{
+    font-size: 12px;
+    font-family: 'Nixie One', cursive;
+}
+.container{
+    margin-top: 100px;
+}
+.bg-4 { 
+    background-color: #BFD8D2;
+    font-size: 12px;
+    font-family: 'Nixie One', cursive;
+
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+a:link {
+    color:black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FCF3F4;
+}
+.logoimg{
+    width: 24px;
+}
