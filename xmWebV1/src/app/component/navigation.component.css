@@ -3,7 +3,7 @@
 }
 ul {
     list-style: none;
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     border: none;
   }
@@ -11,8 +11,8 @@ ul {
 ul:link {
     color:black;
 }
-ul:active {
-    border: none;
+ul:focus{
+    outline: none;
 }
 /* mouse over link */
 ul:hover {
