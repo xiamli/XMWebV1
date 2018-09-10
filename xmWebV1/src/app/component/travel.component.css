@@ -1,0 +1,12 @@
+.map {
+  background-color: grey;
+  border: 12px solid white;
+  margin-left: 120px;
+  margin-right: 120px;
+
+}
+agm-map {
+    align-content: center;
+    width: 100%;
+    height: 400px;
+  }

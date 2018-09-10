@@ -5,11 +5,43 @@ ul {
     list-style: none;
     font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
+    border: none;
   }
+
+ul:link {
+    color:black;
+}
+ul:active {
+    border: none;
+}
+/* mouse over link */
+ul:hover {
+    color: #cc7a00;
+}
 #myCarousel {
-    width: 1200px;
+    width: 70%;
     border: 12px solid white;
 }
 body{
     background-color: #FCF3F4;
+}
+.menu_logo {
+    display:none;
+}
+.menu_logo img{
+    width:80%;
+}
+.affix .menu_logo {
+    display: block;
+}
+.affix {
+    top: 0;
+    background-color: #FCF3F4;
+    width: 100%;
+    height: 50px;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
 }
